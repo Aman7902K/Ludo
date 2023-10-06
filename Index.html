@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title> 
+  <title>Document</title>
   <style>
-    .img{
+    .img {
       height: 100px;
       width: 100px;
-     }
+    }
 
-     span.subheading-gold {
-    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-     }
-     .text{
+    span.subheading-gold {
+      background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    }
+
+    .text {
       color: azure;
       font-size: 30px;
-     }
+    }
+
+    .board_img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      width: 18rem;
+      margin: 0 auto;
+    }
   </style>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body class="bg-black">
-  <div class="container">
-      <nav class="navbar navbar-expand-lg bg-black">
+  <header>
+    <div class="container" style="margin-bottom: 200px;">
+      <nav class="navbar fixed-top navbar-expand-lg bg-black">
         <div class="container">
           <img src="Images/khelo-boss (1).png" alt="" class="img">
-          <button class="navbar-toggler border border-2 border-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler border border-2 border-danger" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="text-white">menu</span>
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,13 +56,16 @@
                 <a class="nav-link text-white" href="#">Link</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
                   Dropdown
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
@@ -56,15 +77,87 @@
         </div>
       </nav>
     </div>
-  <div class="container m-5">
+  </header>
+  <section class="bg-black"></section>
+  <div class="container my-5" style="margin-top: 700px;">
     <div class="row">
-      <h6 ><span class="subheading-gold">Play and Win</span></h6>
+      <h6><span class="subheading-gold">Play and Win</span></h6>
     </div>
     <div class="row">
       <div class="text">It’s time to grab the opportunity</div>
     </div>
+    <div class="row my-3">
+      <div class="col-8 text-white px3">
+        Let’s play and secure a huge amount with your talent, luck and expertise in gaming. It’s time to enhance and
+        utilize your passion.
+      </div>
+    </div>
+    <div class="row my-5 ">
+      <button class="btn bg-danger w-25">
+        <b class="text-white">Play now</b>
+      </button>
+    </div>
+    <div class="row d-flex ">
+      <picture data-aos="fade-left" class="md:w-1/2 aos-init aos-animate">
+        <img src="Images/ludo-board.svg" class="board_img" alt="bannerPic">
+      </picture>
+    </div>
   </div>
+  </section>
+  <section class="bg-danger">
+    <div class="container">
+      <div class="row">
+        <h4 style="text-align: center;" class="my-5">
+          <span class="text-white">Revamp your Childhood With Us!</span>
+        </h4>
+      </div>
+      <div class="row">
+        <p class="fw-bold text-white p-4 " style="font-size: 20px; text-align: center;">
+          Welcome to Ludokhelo, the remaining vacation spot for all your online ludo adventures! If you’re craving a
+          little melancholic fun, appearance, no in addition, we offer an immersive and fun Ludo play experience from
+          the consolation of your personal room. Gather your friends and circle of relatives or undertaking players from
+          around the sector as you roll the cube and plan your flow on our heated ludo board.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="bg-black">
+    <h3 class="text-white mt-4 text-center">Distinct Features</h3>
+    <p class="text-white text-center" style="font-size: 17px;">
+      <b>let's play the game and ensure multiple benefits
+      </b>
+    </p>
+  </section>
+  <section>
+    <div class="container border-0 border-white">
+      <div class="row">
+        <div class="card bg-black w-50">
+          <img src="Images/withdraw.svg" class="card-img-top board_img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center text-white">Instant Withdraw</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row align-self-center">
+        <div class="card bg-black w-50 ">
+          <img src="Images/withdraw.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center text-white">Instant Withdraw</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row align-self-center">
+        <div class="card bg-black w-50 ">
+          <img src="Images/withdraw.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center text-white">Instant Withdraw</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 </html>
