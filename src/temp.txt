@@ -1,0 +1,136 @@
+<header>
+      <div className="container" style="margin-bottom: 200px;">
+      <nav className="navbar fixed-top navbar-expand-lg bg-black">
+        <div className="container">
+          <img src="Images/khelo-boss (1).png" alt="" className="img" />
+          <button className="navbar-toggler border border-2 border-danger" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span className="text-white">menu</span>
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+              <li className="nav-item">
+                <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li className="nav-item ">
+                <a className="nav-link text-white" href="#">Link</a>
+              </li>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#">Action</a></li>
+                  <li><a className="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section className="bg-black"></section>
+  <div className="container my-5" style="margin-top: 700px;">
+    <div className="row">
+      <h6><span className="subheading-gold">Play and Win</span></h6>
+    </div>
+    <div className="row">
+      <div className="text">It’s time to grab the opportunity</div>
+    </div>
+    <div className="row my-3">
+      <div className="col-8 text-white px3">
+        Let’s play and secure a huge amount with your talent, luck and expertise in gaming. It’s time to enhance and
+        utilize your passion.
+      </div>
+    </div>
+    <div className="row my-5 ">
+      <button className="btn bg-danger w-25">
+        <b className="text-white">Play now</b>
+      </button>
+    </div>
+    <div className="row d-flex ">
+      <picture data-aos="fade-left" className="md:w-1/2 aos-init aos-animate">
+        <img src="Images/ludo-board.svg" className="board_img" alt="bannerPic" />
+      </picture>
+    </div>
+  </div>
+  <section className="bg-danger">
+    <div className="container">
+      <div className="row">
+        <h4 style="text-align: center;" className="my-5">
+          <span className="text-white">Revamp your Childhood With Us!</span>
+        </h4>
+      </div>
+      <div className="row">
+        <p className="fw-bold text-white p-4 " style="font-size: 20px; text-align: center;">
+          Welcome to Ludokhelo, the remaining vacation spot for all your online ludo adventures! If you’re craving a
+          little melancholic fun, appearance, no in addition, we offer an immersive and fun Ludo play experience from
+          the consolation of your personal room. Gather your friends and circle of relatives or undertaking players from
+          around the sector as you roll the cube and plan your flow on our heated ludo board.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section className="bg-black">
+    <h3 className="text-white mt-4 text-center">Distinct Features</h3>
+    <p className="text-white text-center" style="font-size: 17px;">
+      <b>let's play the game and ensure multiple benefits
+      </b>
+    </p>
+  </section>
+  <section>
+    <div className="container border-0 border-white">
+      <div className="row">
+        <div className="card bg-black w-50 border border-3 border-danger">
+          <img src="Images/withdraw.svg" className="card-img-top board_img" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title text-center text-white">Instant Withdraw</h5>
+          </div>
+        </div>
+      </div>
+      <div className="row align-self-center my-2">
+        <div className="card bg-black w-50 border border-3 border-danger">
+          <img src="Images/authentic.svg" className="card-img-top board_img" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title text-center text-white">NO Bots | 100% real Players</h5>
+          </div>
+        </div>
+      </div>
+      <div className="row align-self-center my-2">
+        <div className="card bg-black w-50 border border-3 border-danger">
+          <img src="Images/support.svg" className="card-img-top board_img" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title text-center text-white">24/7 What's App Support</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="paypart bg-danger">
+    <div className="container">
+      <div className="row">
+        <h4 style="text-align: center;" className="my-5">
+          <span className="text-white">Disclaimer</span>
+        </h4>
+      </div>
+      <div className="row">
+        <p className="fw-bold text-white p-2 " style="font-size: 20px; text-align: center;">
+          This game may be habit-forming or financially risky. Play responsibly. This game is only applicable for audience above 18 years of age. In any case of money loss the player can contact to the support team for further guidence.
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer >
+      <span className="text-white" style="text-align: center;"> 2023 Name To be Added | ALL RIGHTS RESERVED.</span>
+  </footer>
